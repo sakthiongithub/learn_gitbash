@@ -1,0 +1,234 @@
+div.dSpan{
+				border:0px;
+				text-align: center;
+				font-weight: bold;
+				font-family: verdana;
+				font-size: 10pt;
+				color: #666666;
+				cursor: pointer;
+				background:#F5F5F5;
+			}
+			td.mTableTD{
+				vertical-align: top;
+			}
+			td.dateTD{
+				border: 1px solid #cccccc;
+				font-size:14px;
+				color:#555555;
+				 font-family:Calibri;
+				 font-weight:bold;
+			}
+			table.cTable{
+				border: 1px solid #cccccc;
+			}
+.div_con
+{
+  position:absolute;
+  width:auto;
+  padding:2px 2px 2px 2px;
+  background:#597272;
+  color:#FFF;
+}
+
+.calendarTable {
+    background-color:#FBFBFB;
+    color:#333;
+    border: 1px solid #bbb;
+	width:100px;
+	height:220px;
+}
+.calendarTable td {
+    text-align: center;
+    padding: 2px 4px 2px 4px;
+}
+.calendarTable td.monthHead {
+    font-weight: bold;
+    border: 1px solid #bbb;
+    background-color:#BBB;
+}
+.calendarTable td.weekDay {
+    font-weight: bold;
+	cursor:pointer;
+}
+.calendarTable td.eventDay {
+    font-weight: bold;
+	color:#FF0000;
+	cursor:pointer;
+}
+.calendarTable td.weekEnd {
+    font-weight: bold;
+	background:#87CEFA;
+	color:#666;
+	cursor:pointer;
+}
+.calendarTable td.weekEndFest{
+     background:#FF0000;
+	 color:#FFF;
+	 cursor:pointer;
+}
+.calendarTable td.monthDay {
+    cursor:pointer;
+	color:#444;
+}
+.calendarTable td.currentDay {
+    font-weight: bold;
+    color:#B22222;
+    border: 2px solid #666;
+	cursor:pointer;
+}
+.calendarTable td.festDay
+{
+   font-weight: bold;
+    background:#FFA500;
+	  cursor:pointer;
+	  cursor:pointer;
+}
+.calendarTable td.EndFest {
+    font-weight: bold;
+	color:#FF0000;
+	background:#87CEFA;
+	cursor:pointer;
+}
+
+.div_context_win
+{
+width:auto;
+ position:absolute;
+  display:none;
+   background:#597272;
+    padding:1px 3px 1px 3px;
+	 color:#FFF; 
+	 border-radius:3px;
+	  z-index:1000;
+	  font-size:14px;
+	  font-family:Calibri;
+	  color:#FFF;
+	
+}
+.calendarTable_L {
+    color:#333;
+    border: 1px solid #eee;
+    width:150px;
+	font-size:11px;
+	font-family:Calibri;
+	height:20px;
+	float:left;
+}
+.calendarTable_L td {
+    text-align: left;
+    padding: 2px 4px 2px 4px;
+	 width:50px;
+	height:20px;
+	 border: 1px solid #eee;
+	 	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.monthHead_L {
+    font-weight: bold;
+    border: 1px solid #bbb;
+    background-color:#fff;
+	width:60px;
+	height:20px;
+		font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.weekDay_L {
+    font-weight: bold;
+	 width:50px;
+	font-family:Calibri;
+     font-size:11px;
+	 color:#555;
+	font-family:Calibri;
+}
+.calendarTable_L td.weekEnd_L {
+    font-weight: bold;
+	background:#99e5ff;
+	color:#333;
+	border-top:1px dashed #555;
+	border-bottom:1px dashed #555;
+	-webkit-transition-duration:0.2s;
+	 width:50px;
+	 height:20px;
+	 	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.weekEndFest_L{
+     background:#FF0000;
+	 color:#FFF;
+	 cursor:pointer;
+	 border-top:1px dashed #555;
+	border-bottom:1px dashed #555;
+	 width:50px;
+	 height:20px;
+	 	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.monthDay_L {
+ 	color:#888;
+	 width:50px;
+	 height:20px;
+	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.currentDay_L {
+    font-weight: bold;
+    color:#B22222;
+    border: 2px solid #b22222;
+	 width:50px;
+	 height:20px;
+	 font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.festDay_L
+{
+   font-weight: bold;
+    background:#FFA500;
+	border-top:1px dashed #555;
+	border-bottom:1px dashed #555;
+	cursor:pointer;
+	width:50px;
+	height:20px;
+	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.EndFest_L {
+    font-weight: bold;
+	color:#FF0000;
+	background:#99e5ff;
+	cursor:pointer;
+	border-top:1px dashed #555;
+	border-bottom:1px dashed #555;
+	 width:50px;
+	 height:20px;
+	 font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.putLeave_L{
+  font-weight: bold;
+    background:#90EE90;
+	border-top:1px dashed #555;
+	border-bottom:1px dashed #555;
+  cursor:pointer;
+   width:50px;
+ height:20px;
+ 	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.myleave_L{
+ font-weight: bold;
+    background:#00008b;
+	color:#FFF;
+	border-top:1px dashed #aaa;
+	border-bottom:1px dashed #aaa;
+  cursor:pointer;
+   width:50px; 
+  height:20px;
+  	font-size:11px;
+	font-family:Calibri;
+}
+.calendarTable_L td.empty_L{
+    width:50px;
+	height:20px;
+		font-size:11px;
+	font-family:Calibri;
+}

@@ -1,0 +1,113 @@
+.arrow_box {
+	position: relative;
+	background: #3333FF;
+	height:40px;
+	width:160px;
+	margin-left:5px;
+	margin-top: 3px;
+    box-shadow:2px 2px 2px grey;
+	text-align:center;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	border: solid ;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: transparent;
+	border-top-color:#DDDEEE;
+	border-left-color: #3333FF;
+	border-width: 20px;
+	margin-top: 0px;
+
+}
+.txtbox_crtpck
+{
+  width:300px;
+  height:32px;
+  border-radius:3px;
+  border:1px solid #DDDDDD;
+}
+
+.fontstyle_large
+{
+  font-size:32px;
+  font-family:Calibri;
+  font-weight:bold;
+}
+
+.tab_btns {
+border-bottom: 20px solid #0066FF;
+ border-left: 1px solid transparent;
+  border-right: 15px solid transparent;
+   height:0px; 
+   width:100px; 
+   color:#FFFFFF;
+    font-size:14px;
+	 font-weight:bold;
+	 text-align:center;
+}
+.div_dropdown_crt
+{
+background:#FFFFEF;
+float:left;
+ width:90%; 
+ height:20px;
+ margin-left:5px;
+   border-radius:3px;
+   border:1px solid lightgrey;
+	 position:relative;
+}
+.div_drpListItems_crt
+{
+float:left;
+border-radius:3px;
+ text-align:left;
+  z-index:10000;
+   position:absolute;
+    height:80px;
+	width:100%;
+	 overflow-y:scroll;
+	  background:#FFFFEF;
+	   margin-left:5px;
+	    margin-top:47px;
+		 display:none;
+		 border:1px solid lightgrey;
+		 border-top:0px;
+}
+.span_drpListItems_crt
+{
+text-decoration:none;
+ text-align:left;
+  float:left;
+  width:100%;
+  font-size:26px;
+  font-family:Calibri;
+  color:#222222;
+}
+.span_drpImg_crt
+{
+float:right;
+margin-top:2px;
+ margin-right:2px;
+ display:none;
+}
+
+.txtbox_resp
+{
+  width:120px;
+  height:24px;
+  box-shadow:1px;
+}
+
+.font_popup
+{
+color:#555;
+font-size:12px;
+font-family:Calibri;
+}

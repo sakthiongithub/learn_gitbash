@@ -1,0 +1,429 @@
+.div_emailbtn_Package
+{
+background:#0066CC;
+width:45px;
+  height:25px;
+   font-size:10px;
+    font-weight:bold;
+float: left;
+border-radius:5px;
+color:#FFFFFF;
+text-align:center;
+vertical-align:middle;
+font-family:Georgia, Calibri;
+letter-spacing:normal;
+margin-right:3px;
+ border:1px solid grey; 
+ cursor:pointer;
+}
+
+.div_addToWishlist_Package
+{
+background:#555555;
+ width:45px;
+  height:25px;
+   font-size:10px;
+    font-weight:bold;
+float: left;
+border-radius:5px;
+color:#FFFFFF;
+text-align:center;
+vertical-align:middle;
+font-family:Georgia, Calibri;
+letter-spacing:normal;
+margin-right:1px;
+margin-left:3px;
+ border:1px solid grey; 
+}
+
+.div_buyPackage
+{
+background:green;
+width:45px;
+  height:25px;
+   font-size:10px;
+    font-weight:bold;
+float: left;
+border-radius:5px;
+color:#FFFFFF;
+text-align:center;
+vertical-align:middle;
+font-family:Georgia, Calibri;
+letter-spacing:normal;
+margin-right:3px;
+ border:1px solid Green;
+display:block; 
+cursor:pointer;  
+}	
+a
+{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+.txtbox_num
+{
+height:20px;
+width:34px;
+}	 
+
+.package_images_left
+{
+width:160px;
+ height:120px;
+  border-style:none;
+  border-radius:3px;
+  margin:5px 2px 2px 2px;
+  position:relative;
+}
+
+.div_package_imageNames_left
+{
+position:absolute;
+ width:100%;
+  text-align:center;
+   opacity:0.8;
+    bottom:0px;
+    background:#444444;
+	 color:#FFFFFF
+}
+
+.package_images_top
+{
+width:160px;
+margin:1px 1px 1px 1px;
+ height:120px;
+  border-style:none;
+  border-radius:3px;
+  background-position:center;
+}
+.package_title
+{
+background:#597272;
+color:#FBFFE5;
+ font-size:18px;
+  font-family:Calibri, Georgia;
+  font-weight:bold;
+}
+.package_table
+{
+font-family:Calibri;
+ font-size:15px;
+ height:auto;
+   border:1px solid grey;
+   width:100%;
+   background:#FBFBFF;
+   color:#444444;
+}
+
+.package_table_hdr
+{
+font-family:Calibri;
+ font-size:15px;
+ height:auto;
+   border:1px solid grey;
+   width:100%;
+   color:#666666;
+}
+.div_HolidayType
+{
+width:1000px;
+float:left;
+overflow-x:scroll;
+  position:relative;
+  margin-left:10px;
+  margin-top:0px;
+  height:auto;
+  background:#FFFFF0;
+  border-radius:5px;
+  border:1px solid lightgrey;
+}
+.div_HolidayType_GridView
+{
+width:1000px;
+float:left;
+height: 400px;
+overflow-x:hidden;
+overflow-y:scroll;
+  margin-left:0px;
+  margin-top:0px;
+  height:auto;
+  background:#FFFFF0;
+  border-radius:5px;
+  border:1px solid lightgrey;
+}
+
+.div_vacationBtn
+{
+display:block;
+width:300px;
+height:24px;
+font-size:16px;
+color:white;
+background:#597272;
+border:1px solid grey;
+font-family:Calibri;
+font-weight:600px;
+margin-top:5px;
+margin-left:25%;
+border-radius:5px;
+}
+
+.div_listGrid_font
+{
+font-family:Calibri;
+ color:#444444; 
+ font-size:12px;
+ width:100%;
+}
+.div_grid_main
+{
+  width:164px;
+height:220px;
+  border-radius:3px;
+  background:#FBFBFF;
+  border:1px solid grey;
+  margin:5px 2px 5px 2px;
+}
+.div_grid_images
+{
+width:160px;
+height:120px;
+background-repeat:no-repeat;
+background-position:right;
+position:relative;
+margin:2px 2px 2px 2px;
+}
+.div_grid_img_name
+{
+width:160px;
+height:34px;
+font-size:14px;
+background:#597272;
+Opacity:0.9;
+color:#FBFFE5;
+margin:2px 2px 2px 2px;
+}
+.div-grid_img_package_details
+{
+position:absolute;
+ float:right;
+  bottom:0px;
+   color:White; 
+   font-weight:600;
+  margin:2px 2px 2px 2px;
+}
+.div_grid_package_cost
+{
+  width:160px;
+height:20px;
+background:#222222;
+Opacity:0.9;
+color:#FFFFFF;
+font-size:18px;
+font-family:Calibri;
+margin:1px 1px 1px 1px;
+}
+.div_grid_emailBtn
+{
+background:#0066CC;
+ width:50px;
+  height:25px;
+   font-size:10px;
+    font-weight:bold;
+float: left;
+border-radius:5px;
+color:#FFFFFF;
+text-align:center;
+vertical-align:middle;
+font-family:Georgia, Calibri;
+letter-spacing:normal;
+margin-right:3px;
+ border:1px solid grey;
+ float:left;
+  height:15px;
+  margin-top:2px;
+   margin-right:30px;
+   cursor:pointer;
+}
+.div_grid_buyBtn
+{
+background:green;
+ width:50px;
+  height:25px;
+   font-size:10px;
+    font-weight:bold;
+float: left;
+border-radius:5px;
+color:#FFFFFF;
+text-align:center;
+vertical-align:middle;
+font-family:Georgia, Calibri;
+letter-spacing:normal;
+margin-right:3px;
+ border:1px solid Green;
+display:block; 
+float:left;
+ height:15px;
+  margin-top:2px;
+  margin-left:20px;
+  cursor:pointer;
+}
+.div_grid_compare
+{
+font-size:12px;
+  float:left;
+  margin-left:20px;
+}
+#view_section
+{
+background:#FBFBFF;
+ margin-top:15px;
+  height:60px;
+   max-width:1000px;
+    margin-left:1px;
+	position:relative;
+	border:1px solid lightgrey;
+	border-radius:5px;
+}
+#div_compare_packs
+{
+height:100px;
+ width:850px;
+  margin-top:20px;
+   margin-left:10px;
+    background:#F5F5F5;
+	border-radius:3px;
+	position:relative;
+	border:1px solid lightgrey;
+}
+.div_img_compare_span
+{
+width:125px;
+margin:5px 10px 5px 10px;
+background:white;
+float:left;
+}
+.div_img_compare
+{
+width:125px;
+height:70px;
+}
+.div_compare_btn
+{
+display:block;
+width:80px;
+ background:#0066FF;
+  color:#FFFFCC;
+   float:right;
+    margin-top:70px; 
+	margin-right:1px;
+	border-radius:3px;
+	height:24px;
+	font-size:18px;
+	font-family:Calibri;
+	text-align:center;
+	cursor:pointer;
+}
+.div_cmp_imgtxt
+{
+width:125px;
+height:20px;
+background:#999999;
+color:#FFFFCC;
+ bottom:10px;
+ opacity:0.8;
+  position:absolute;
+}
+.div_img_cmp_name
+{
+  font-size:10px;
+  color:#FFFFFF;
+  font-family:Calibri;
+}
+.div_cmp_cancelbtn
+{
+ float:right;
+margin-top:10px;
+}
+
+#left_inputs
+{
+  background:#F5F5F5;
+  color:#B22222; 
+  width:240px; 
+  height:200px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  margin-bottom:2px;
+  border-radius:0px;
+  text-align:left; 
+  border:1px solid grey; 
+  box-shadow: 2px 0px 6px 0px grey;
+}
+.div_pckg_hdrs_scls
+{
+width:10%;
+float:left;
+ margin-right:5px;
+    margin-left:10px;
+	  border-right:1px solid #DDDDDD;
+	   font-size:12px;
+	    font-family:Calibri; 
+		margin-top:5px;
+}
+
+.dtls_pop
+{
+float:left;
+ width:850px;
+  position:absolute;
+   margin:10%;
+    height:400px;
+	 z-index:1000;
+	  background:#fff; 
+	  border:1px solid #888;
+	   display:none;
+}
+.div_btn_tab
+{
+ color:#fff;
+  width:100px;
+   height:23px;
+ font-size:16px;
+ font-family:Calibri;
+  
+}
+
+#div_FriendRecomm
+{
+display:none;  
+ background:#FBFBFF;
+  color:Grey;
+   border:1px solid grey;
+    box-shadow: 2px 0px 6px grey;
+   width:400px;
+   height:auto;  
+   border-radius:10px;
+  margin:15% 6% 0% 20%;
+  position:absolute;
+  text-align:center;
+  z-index:10000;
+}
+
+.sp_nr_cities
+{
+font-size:10px;
+ float:left;
+  width:auto;
+  height:12px;
+   padding:3px 5px 4px 5px;
+	margin:5px 5px 3px 3px;
+	color:#FFFFFF;
+	border-radius:3px;
+	text-align:left;
+	background:#597272;
+	color:#fff;
+	cursor:pointer;
+}

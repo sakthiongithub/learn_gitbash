@@ -1,0 +1,13 @@
+.div_pinpoints
+{
+width:20px;
+ height:30px;
+  border-radius:30px;
+   background:#663399;
+    border:1px solid #222222;
+	 position:absolute; 
+	 z-index:110;
+	 margin: 10px 10px 0px 10px;
+	 color:#FFFFFF;
+}
+
