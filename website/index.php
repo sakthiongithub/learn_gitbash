@@ -29,6 +29,9 @@ $src = "---From ----";
 $bookHtl =false;
 $bookFlt=false;
 $expl=false;
+$txt="";$bookHtl =false;
+$bookFlt=false;
+$expl=false;
 $txt="";
 
 if(isset($_GET['loc']))
